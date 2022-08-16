@@ -1,0 +1,7 @@
+.form-control{
+    border: 0;
+
+    display: flex;
+    flex-direction: column-reverse;
+    height: 70px;
+}
