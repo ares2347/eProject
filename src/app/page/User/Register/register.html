@@ -1,44 +1,54 @@
 <div class="container">
-        <form method="get" action="#">
-            <div class="Title">
-                <label>Title(optional)</label>
+    <div class="main">
+        <form class="form" method="get" action="#">
+            <div class="form-group">
+                <label class="form-label">First name</label>
+                <input id="d1" class="form-control" type="text" name="firstname" placeholder="First mane" required/>
+                <span class="form-message"></span>
+            </div >
+            <div class="form-group">
+                <label class="form-label">Last name</label>
+                <input id="d2" class="form-control" type="text" name="lastname" placeholder="Last name" required/>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Date of Birth</label>
+                <input id="d3" class="form-control" type="date" name="birthday" placeholder="Date of Birth..."/>
+                <span class="form-message"></span>
+            </div >
+            <div class="form-group">
+                <label class="form-label">Title(optional)</label>
                 <select name="Gender">
                     <option value="">Please Select</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="other">Other</option>
                 </select>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input id="d4" class="form-control" type="email" name="Email" placeholder="Email" required/>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Confirm Email</label>
+                <input id="d5" class="form-control" type="email" name="Email" placeholder="Email" required/>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Password</label>
+                <input id="d6" class="form-control" type="password" name="pwd" placeholder="Password..." required/>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Confirm Password</label>
+                <input id="d7" class="form-control" type="password" name="pwd" placeholder="Password..." required/>
+                <span class="form-message"></span>
             </div>
             <div>
-                <label>First name</label>
-                <input id="d1" type="text" name="firstname" placeholder="First mane" required/>
-            </div>
-            <div>
-                <label>Last name</label>
-                <input id="d2" type="text" name="lastname" placeholder="Last name" required/>
-            </div>
-            <div>
-                <label>Date of Birth</label>
-                <input id="d3" type="date" name="birthday" placeholder="Date of Birth..."/>
-            </div>
-            <div>
-                <label>Email</label>
-                <input id="d4" type="email" name="Email" placeholder="Email" required/>
-            </div>
-            <div>
-                <label>Confirm Email</label>
-                <input id="d5" type="email" name="Email" placeholder="Email" required/>
-            </div>
-            <div>
-                <label>Password</label>
-                <input id="d6" type="password" name="pwd" placeholder="Password..." required/>
-            </div>
-            <div>
-                <label>Confirm Password</label>
-                <input id="d7" type="password" name="pwd" placeholder="Password..." required/>
-            </div>
-            <div>
-                <button id="button" type="submit">Create Account</button>
+                <button id="button" class="form-submit" type="submit">Create Account</button>
             </div>
         </form>
+    </div>
 </div>
