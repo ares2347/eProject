@@ -12,7 +12,7 @@ import {Homepage} from "./page/HomePage/homepage";
 import {Login} from "./page/User/Login/login";
 import {Register} from "./page/User/Register/register";
 import {Product} from "./page/Product/product";
-
+import {Cart} from "./page/Cart/cart"
 const appRoutes: Routes = [
   {
     path: '', component: Homepage
@@ -22,6 +22,8 @@ const appRoutes: Routes = [
     path: 'register', component:Register
   },{
     path: 'product', component: Product
+  },{
+    path: 'cart', component: Cart
   }
 ]
 
@@ -31,7 +33,10 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     CategoriesComponent,
-    Homepage
+    Homepage,
+    Cart,
+    Login,
+    Register
   ],
   imports: [
     BrowserModule,
