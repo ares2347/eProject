@@ -2,6 +2,8 @@
     border: 1px solid lavender;
     margin: 5px;
     border-radius: 10px;
+    background: #337ab7;
+    color: white;
 }
 #categories ul{
     list-style: none;
