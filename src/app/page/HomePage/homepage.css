@@ -1,0 +1,13 @@
+.carousel{
+    background: url('src/assets/carousel.webp') no-repeat center;
+    height: 300px;
+}
+.advert{
+    background: url('src/assets/carousel.webp') no-repeat center;
+    height: 300px;
+    margin: 10px 0;
+}
+.advert:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

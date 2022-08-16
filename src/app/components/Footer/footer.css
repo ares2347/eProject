@@ -1,0 +1,21 @@
+#footer-wrapper{
+    background-color: greenyellow;
+    padding: 20px 15px;
+}
+#footer-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-container ul{
+    margin: 0;
+    list-style: none;
+}
+#footer-container li{
+    padding: 5px 0;
+}
+#footer-container ul li:first-child{
+    font-weight: 600;
+    font-size: 16px;
+}
