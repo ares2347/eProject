@@ -1,0 +1,36 @@
+#header-wrapper{
+    background-color: greenyellow;
+    padding: 20px 15px;
+}
+#header-container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+
+}
+#header-search-box{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
+#header-search-box input{
+    padding: 10px 15px;
+    border: none;
+}
+#header-search-box input:focus{
+    outline: none;
+}
+#header-search-box:focus-within{
+    border: 1px solid tomato;
+}
+#header-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    gap: 25px;
+    margin: 0;
+}
