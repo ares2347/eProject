@@ -1,6 +1,8 @@
 #footer-wrapper{
-    background-color: greenyellow;
+    background-color: white;
     padding: 20px 15px;
+    border-top:1px solid #3333336e ;
+    box-shadow: 4px 5px 5px 12px white, 9px 0px 1px 9px black;
 }
 #footer-container{
     width: 1200px;

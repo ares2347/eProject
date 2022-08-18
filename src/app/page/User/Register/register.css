@@ -1,25 +1,40 @@
-
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .main {
     background: #ffffff;
     min-height: 80vh;
     display: flex;
     justify-content: center;
 }
+h1{
+    font-weight: bold;
+    margin: 10px 0;
+    padding-bottom: 15px;
+    width: 100%;
+}
 .form {
-    width: 500px;
-    min-height: 100px;
+    width: 800px;
+    display: flex;
     padding: 32px 24px;
     text-align: center;
-    background: greenyellow;
+    background: white;
     border-radius: 2px;
     margin: 24px;
     align-self: center;
     box-shadow: 0 10px 15px 0 rgb(0 0 0 / 50%);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .form-group {
     display: flex;
     margin-bottom: 16px;
     flex-direction: column;
+    width: 45%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 22px;
 }
 .form-label,
 .form-message {
@@ -40,7 +55,7 @@
     font-size: 1.4rem;
 }
 .form-control:hover {
-    border-color: #23527c;
+    border-color: #3333336e;
 }
 
 .form-group.invalid .form-control {
@@ -59,7 +74,7 @@
 
 .form-submit {
     outline: none;
-    background-color: #337ab7;
+    background-color: #333333;
     margin-top: 12px;
     padding: 12px 16px;
     font-weight: 600;
@@ -72,5 +87,9 @@
 }
 
 .form-submit:hover {
-    background-color: #23527c;
+    background-color: #3333336e;
+}
+p{
+    display: flex;
+    margin: 21px 0px 0 46px;
 }
