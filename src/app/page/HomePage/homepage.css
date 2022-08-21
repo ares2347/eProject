@@ -1,13 +1,122 @@
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1380px!important;
+    }
+}
 .carousel{
-    background: url('src/assets/carousel.webp') no-repeat center;
-    height: 300px;
+    /*background: url('src/assets/carousel.webp') no-repeat center;*/
+    /*height: 500px;*/
 }
-.advert{
-    background: url('src/assets/carousel.webp') no-repeat center;
-    height: 300px;
-    margin: 10px 0;
+.carousel-item img{
+    max-height: 750px;
 }
-.advert:hover{
-    cursor: pointer;
-    opacity: 0.8;
+.main{
+    top: 88px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.banner{
+    margin-top: 100px;
+}
+.banner-item{
+    width: 25%;
+    position: relative;
+    margin: 0 5px;
+}
+.banner-item img{
+    max-width: 100%;
+}
+.banner-hover{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.banner-hover:hover{
+    background-color: #ab9a9a82;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    border: 1px solid white;
+}
+.banner-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+}
+.banner-btn{
+    border: 0;
+    background-color: #FFFFFF;
+    padding: 8px;
+    font-weight: 600;
+}
+.banner-btn:hover{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.block-products {
+    margin-top: 100px;
+}
+.products{
+    position: relative;
+    margin-bottom: 100px;
+}
+.products-heading{
+    padding: 15px;
+}
+.products-heading h2{
+    font-weight: bold;
+    display: inline-block;
+}
+.products-transition{
+    top: 33px;
+    left: 271px;
+    right: 0px;
+    bottom: -25px;
+    position: absolute;
+    border: 3px solid;
+    /* border-top: 3px solid; */
+    z-index: -10;
+}
+.ddd{
+    border: 2px solid;
+    box-shadow: -14px 11px 20px 0px #333;
+}
+/*//https://template77531.motopreview.com/mt-demo/77500/77531/mt-content/uploads/2019/02/mt-1735_home_banner-6.jpg*/
+.col-sm-9.d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    margin-right: 7px;
+}
+.product:hover{
+    border: 1px solid;
+}
+
+.product-img img{
+    max-width: 100%;
+    max-height: 75%;
+}
+.price{
+    color: #FFFFFF;
+    background-color: #3333336e;
+    padding: 2px;
+    position: absolute;
+    top:280px;
 }
