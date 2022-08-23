@@ -7,7 +7,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {RouterModule, Routes} from "@angular/router";
 import { HeaderComponent } from './components/Header/header';
 import {FooterComponent} from './components/Footer/footer';
-import {CategoriesComponent} from "./components/Categories/categories";
+// import {CategoriesComponent} from "./page/Categories/categories";
 import {Homepage} from "./page/HomePage/homepage";
 import {Login} from "./page/User/Login/login";
 import {Register} from "./page/User/Register/register";
@@ -40,7 +40,7 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CategoriesComponent,
+    // CategoriesComponent,
     Homepage,
     Cart,
     Login,

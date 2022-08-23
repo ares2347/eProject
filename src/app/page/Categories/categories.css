@@ -1,9 +1,14 @@
-
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1380px!important;
+    }
+}
 #cate-nav-bar{
     display: flex;
     background: #E7E8E9;
     padding: 20px 20px 0 20px;
     margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 #cate-nav-bar button:focus{
