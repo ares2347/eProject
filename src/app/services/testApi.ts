@@ -1,4 +1,4 @@
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpParams} from "@angular/common/http";
 import {Injectable} from "@angular/core";
 
 @Injectable({
@@ -8,7 +8,9 @@ export class TestApi {
     constructor(private httpClient: HttpClient) {
     }
 
-    fetchData() {
-        return this.httpClient.get<any>('https://jsonplaceholder.typicode.com/todos/1')
+    fetchData(url:string, params?: HttpParams) {
+        return this.httpClient.get<any>(url,{
+            params: params
+        })
     }
 }

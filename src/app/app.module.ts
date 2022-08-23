@@ -13,6 +13,10 @@ import {Login} from "./page/User/Login/login";
 import {Register} from "./page/User/Register/register";
 import {Product} from "./page/Product/product";
 import {Cart} from "./page/Cart/cart"
+import {SearchboxComponent} from "./components/SearchBox/searchbox";
+import {Categories} from "./page/Categories/categories";
+import {CategoriesOverview} from "./page/CategoriesOverview/CategoriesOverview";
+import {ReactiveFormsModule, FormsModule} from "@angular/forms";
 const appRoutes: Routes = [
   {
     path: '', component: Homepage
@@ -24,6 +28,10 @@ const appRoutes: Routes = [
     path: 'product', component: Product
   },{
     path: 'cart', component: Cart
+  },{
+    path:'categories', component: Categories
+  },{
+    path:'categories/overview', component: CategoriesOverview
   }
 ]
 
@@ -36,13 +44,18 @@ const appRoutes: Routes = [
     Homepage,
     Cart,
     Login,
-    Register
+    Register,
+    SearchboxComponent,
+    Categories,
+      CategoriesOverview
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-      RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
