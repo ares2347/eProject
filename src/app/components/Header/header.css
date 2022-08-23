@@ -43,20 +43,31 @@ a:hover{
     padding: 12px 50px;
     align-items: center;
     box-shadow: 0 0 17px 0 #333;
+    height: 100px;
 }
 .sub-menu{
     display: none;
 }
 .main-menu{
     display: flex;
+    flex-basis: 40%;
 }
 .main-menu .menu >li{
     padding: 15px 0;
     margin-right:10px ;
+    font-size: 17px;
+    font-weight: bolder;
 }
-
+.header-logo {
+    flex-basis: 20%;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
 .header-right{
     display: flex;
+    flex-basis: 40%;
+    justify-content: flex-end;
 }
 .header-actions{
     display: flex;
