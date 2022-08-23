@@ -14,16 +14,13 @@ export class AppComponent {
     constructor(private service: TestApi) {
     }
 
-    ngOnInit(){
-        this.getData();}
+    // ngOnInit(){
+    //     this.getData();}
 
-    getData(){
-        this.service.fetchData()
-            .subscribe( value => {
-                this.data=JSON.stringify(value)
-            })
-    }
+    // getData(){
+    //     this.service.fetchData('')
+    //         .subscribe( value => {
+    //             this.data=JSON.stringify(value)
+    //         })
+    // }
 }
-
-
-

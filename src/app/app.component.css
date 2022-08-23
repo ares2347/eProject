@@ -40,4 +40,6 @@ a:hover{
 #app-container{
     /*width: 1440px;*/
     margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
 }
