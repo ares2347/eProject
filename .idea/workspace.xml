@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d881900b-a580-4226-9da1-ffe0eeb82087" name="Changes" comment="23/8">
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/bf48713e45ea89653a0f4b09d0590a5d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/e112ea46e1f98753750ebbff8a6c983a44d42701/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Categories/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Categories/categories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/HomePage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/HomePage/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660651863157</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="23/8">
+      <created>1661263137044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661263137044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +202,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test call api" />
     <MESSAGE value="16/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/08" />
+    <MESSAGE value="23/8" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/8" />
   </component>
 </project>
