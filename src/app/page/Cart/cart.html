@@ -1,45 +1,53 @@
-<div id="cart-container">
-    <h1>YOUR SHOPPING CART</h1>
-    <div id="cart-table-wrapper">
-        <table class="table table-striped table-bordered ">
-            <thead>
-            <tr>
-                <th>No.</th>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Subtotal</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1</td>
-                <td><img src="assets/luggage.jpg" alt="" style="height: 100px"/> Luggage</td>
-                <td>$177.00</td>
-                <td><input type="number" value="1"></td>
-                <td>$177.00</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><img src="assets/luggage.jpg" alt="" style="height: 100px"/> Luggage</td>
-                <td>$245.00</td>
-                <td><input type="number" value="3"></td>
-                <td>$735.00</td>
-            </tr>
-            </tbody>
-        </table>
+<div class="container" id="cart-container">
+    <div style="padding: 20px 0;font-weight:700; font-size:24px; letter-spacing: 1px">
+        MY SHOPPING CART
     </div>
-    <div id="cart-payment" style="display: flex; justify-content: space-between">
-        <div>
-            <h2>Promotion Code</h2>
-            <div>
-                <input type="text" placeholder="Coupon">
-                <button type="button">APPLY COUPON</button>
-            </div>
+    <div class="row">
+        <div class="col-md-9">
+            <table>
+                <thead>
+                <tr style="border-bottom: 1px solid #E7E8E9">
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of cart; let i = index">
+                    <td><img src="assets/luggage.jpg" alt="" />{{item.name}}</td>
+                    <td>{{item.price.toLocaleString()}}</td>
+                    <td><input type="number" [id]=i [value]= "item.quantity" (change)="onChange($event)"></td>
+                    <td>{{(item.price*item.quantity).toLocaleString()}}</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
-        <div>
-            <h2>Total: $912.00</h2>
-            <button type="button" style="float: right"> CHECK OUT</button>
+        <div class="col-md-3" id="cart-payment">
+                <div style="font-weight: 300; letter-spacing: 1px;">
+                    ORDER SUMMARY
+                </div>
+                <div>
+                    <label style="font-weight: 500">Additional comments</label>
+                    <textarea name="comment" id="customer-comment" value="" rows="3"></textarea>
+                </div>
+                <div>
+                    <label>GIFT CARD/ DISCOUNT CODE</label>
+                    <input type="text" name="coupon" value="" (change)="onCouponChange($event)">
+                    <button type="button" (click)="onCouponApply()">APPLY COUPON</button>
+                </div>
+                <div>
+                    <div id="bill-total">
+                        <div>
+                            <span>SUBTOTAL</span>
+                            <span>{{subtotal.toLocaleString()}} VND</span>
+                        </div>
+                        <div><span>DISCOUNT</span><span>- {{discount.toLocaleString()}} VND</span></div>
+                        <div><span>TOTAL</span><span>{{total.toLocaleString()}} VND</span></div>
+                    </div>
+                    <button type="button" style="color: white; background: #221F20"> CHECK OUT</button>
+                    <button type="button" routerLink="/categories"> CONTINUE SHOPPING</button>
+                </div>
         </div>
     </div>
-</div>
+  </div>

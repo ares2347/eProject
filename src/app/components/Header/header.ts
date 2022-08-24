@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import {cart} from "../../services/sharedData";
 
 @Component({
     selector: 'component-header',
@@ -7,5 +8,8 @@ import { Component } from "@angular/core";
 })
 
 export class HeaderComponent {
-
+    quantity = cart.reduce((pre:number, cur:any) => {
+        if (cur.quantity > 0) return (pre + 1)
+        else return (pre)
+    },0)
 }
