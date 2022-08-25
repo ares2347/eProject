@@ -1,5 +1,5 @@
 import {Component, Output} from "@angular/core";
-import {cart} from "../../services/sharedData";
+import {cart, SharedDataService} from "../../services/sharedData";
 
 @Component({
     selector: 'cart-page',
@@ -7,11 +7,8 @@ import {cart} from "../../services/sharedData";
     styleUrls: ['./cart.css']
 })
 
-
 export class Cart {
-
-    @Output()
-    cart = [...cart]
+    cart =[...cart]
     coupon = 'IMRICH'
     appliedCoupon = ''
     subtotal= cart.reduce((pre:any, cur:any) => {
@@ -19,6 +16,8 @@ export class Cart {
     },0);
     discount = 0;
     total = this.subtotal - this.discount
+
+
     recalculate = () => {
         this.subtotal= cart.reduce((pre:any, cur:any) => {
             return(pre + cur.quantity*cur.price)

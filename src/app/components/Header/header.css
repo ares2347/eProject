@@ -107,3 +107,6 @@ a:hover{
     right: -8px;
     top: -10px;
 }
+.menu li a{
+    font-size: 14px;
+}

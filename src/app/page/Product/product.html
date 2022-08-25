@@ -1,40 +1,34 @@
 <section class="main">
     <div class="product">
         <div class="product-top row">
-            <p>Trang Chủ</p> <span>/</span><p>Túi</p><span>/</span><p>BA LÔ BADGE OF SPORT CLASSIC-HỒNG</p>
+            <p>Trang Chủ</p> <span>/</span><p>{{product.category}}</p><span>/</span><p>{{product.name}}</p>
         </div>
         <div class="product-content row">
             <div class="product-content-left row">
                 <div class="product-content-left-big-img">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/729e0de64fa84f93ae3fae4a01391e6d_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_01_standard.jpg" alt="">
+                    <img [src]="'assets/' + post.pid + '.webp'" alt="">
                 </div>
-                <div class="product-content-left-small-img">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/729e0de64fa84f93ae3fae4a01391e6d_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_01_standard.jpg" alt="">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/52f7554b4b2b4862a649ae4a013931d6_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_04_standard.jpg" alt="">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2061733f5a7e438fa485ae4a013928d2_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_02_standard.jpg" alt="">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9571c99f95204edcad47ae4a01394a36_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_41_detail.jpg" alt="">
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/98d6384deae340e1a53eae4a01393e29_9366/Ba_Lo_Badge_of_Sport_Classic_Hong_HM8314_05_hover_standard.jpg" alt="">
-                </div>
+
             </div>
             <div class="product-content-right">
                 <div class="product-content-right-product-name">
-                    <h1>BA LÔ BADGE OF SPORT CLASSIC</h1>
+                    <h1>{{product.name}}</h1>
                 </div>
                 <div class="product-content-right-product-price">
-                    <p>650.000₫</p>
+                    <p>{{product.price.toLocaleString()}}</p>
                 </div>
-                <div class="product-content-right-product-color">
-                    <p>Màu sắc: Semi Impact Orange</p>
-                    <div class="product-content-right-product-color-icon">
+<!--                <div class="product-content-right-product-color">-->
+<!--                    <p>Màu sắc: Semi Impact Orange</p>-->
+<!--                    <div class="product-content-right-product-color-icon">-->
 
-                    </div>
-                </div>
-                <div class="product-content-right-product-size">
-                    <p>Kích cỡ</p>
-                    <div class="size">
-                        <span>NS</span>
-                    </div>
-                </div>
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="product-content-right-product-size">-->
+<!--                    <p>Kích cỡ</p>-->
+<!--                    <div class="size">-->
+<!--                        <span>NS</span>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="product-content-right-product-button">
                     <button><p>THÊM VÀO GIỎ HÀNG</p><i class="fa-solid fa-right-long"></i></button>
                     <button><i class="fa-solid fa-heart"></i></button>
@@ -53,11 +47,7 @@
                         <div class="line"></div>
                     </div>
                     <div class="product-content-right-bottom-body">
-                        <div class="product-content-right-bottom-content active">
-                            <h4>CHIẾC BA LÔ ĐA NĂNG RỘNG RÃI, CÓ SỬ DỤNG CHẤT LIỆU TÁI CHẾ.</h4>
-                            <p>Lại đến một mùa xách ba lô lên và đi. Chiếc balo adidas kinh điển này giúp bạn đựng mọi thứ mà không quên phong cách. Từ cốc cà phê cá nhân đến máy tính xách tay cho tới trang phục chạy bộ. Còn có cả một ngăn bên để đựng item vô cùng quan trọng - bình nước.</p>
-                            <p>Làm từ một nhóm chất liệu tái chế và có chứa tối thiểu 60% thành phần tái chế, sản phẩm này đại diện cho một trong số rất nhiều các giải pháp của chúng tôi hướng tới chấm dứt rác thải nhựa.</p>
-                        </div>
+                        <div class="product-content-right-bottom-content active" id="post-content"></div>
                         <div class="product-content-right-bottom-content">
                             <h4>HƯỚNG DẪN GIẶT</h4>
                             <ul>
@@ -83,19 +73,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="product-content-right-bottom-content">
-                            <ul>
-                                <li>Kích thước: 15 cm x 36 cm x 44 cm</li>
-                                <li>Dung tích: 27,5 L</li>
-                                <li>Thân ba lô và lớp lót: Vải dệt trơn làm từ 100% polyester tái chế</li>
-                                <li>Lớp đệm: Mút foam làm từ 100% PE</li>
-                                <li>Ngăn chính có khóa kéo</li>
-                                <li>Ngăn khóa kéo phía trước</li>
-                                <li>Các ngăn mở hai bên</li>
-                                <li>Màu sản phẩm: Semi Impact Orange / White / Black</li>
-                                <li>Mã sản phẩm: HM9143</li>
-                            </ul>
-                        </div>
+                        <div class="product-content-right-bottom-content" id="post-description"></div>
                     </div>
                 </div>
             </div>

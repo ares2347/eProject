@@ -13,11 +13,11 @@
                     <th>Subtotal</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody *ngIf="cart.length>0">
                 <tr *ngFor="let item of cart; let i = index">
-                    <td><img src="assets/luggage.jpg" alt="" />{{item.name}}</td>
+                    <td><img [src]="'assets/'+item.pid+'.webp'" alt="" />{{item.name}}</td>
                     <td>{{item.price.toLocaleString()}}</td>
-                    <td><input type="number" [id]=i [value]= "item.quantity" (change)="onChange($event)"></td>
+                    <td><input type="number" [id]=i [value]= "item.quantity" (change)="onChange($event)" min="0"></td>
                     <td>{{(item.price*item.quantity).toLocaleString()}}</td>
                 </tr>
                 </tbody>

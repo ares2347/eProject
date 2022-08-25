@@ -21,14 +21,14 @@
     width: 70px;
     padding: 20px 15px;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-}
+/*input[type=number]::-webkit-inner-spin-button,*/
+/*input[type=number]::-webkit-outer-spin-button {*/
+/*    -webkit-appearance: none;*/
+/*}*/
 
-input[type=number] {
-    -moz-appearance: textfield;
-}
+/*input[type=number] {*/
+/*    -moz-appearance: textfield;*/
+/*}*/
 
 #cart-payment div{
     margin-bottom:10px;

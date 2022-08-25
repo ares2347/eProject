@@ -17,6 +17,7 @@ import {SearchboxComponent} from "./components/SearchBox/searchbox";
 import {Categories} from "./page/Categories/categories";
 import {CategoriesOverview} from "./page/CategoriesOverview/CategoriesOverview";
 import {ReactiveFormsModule, FormsModule} from "@angular/forms";
+import {SharedDataService} from "./services/sharedData";
 const appRoutes: Routes = [
   {
     path: '', component: Homepage
@@ -25,11 +26,13 @@ const appRoutes: Routes = [
   },{
     path: 'register', component:Register
   },{
-    path: 'product', component: Product
+    path: 'product/:pid', component: Product
   },{
     path: 'cart', component: Cart
   },{
     path:'categories', component: Categories
+  },{
+    path:'categories/:category', component: Categories
   },{
     path:'categories/overview', component: CategoriesOverview
   }
@@ -40,6 +43,7 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
+      Product,
     // CategoriesComponent,
     Homepage,
     Cart,
@@ -57,7 +61,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SharedDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

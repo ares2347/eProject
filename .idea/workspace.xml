@@ -1,53 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1af98b60-72fa-4ba3-99e7-0cbd7e30b855" name="Changes" comment="16/08">
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/13.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/14.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/15.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/16.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/7bcb598829e43d303071965babf5be42.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/8f24c7e1965518e36d7e000d2321b868.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/b374cff62c9d44705679ebba9111a2da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/d5039efff8ffe23d82f28569bae27a59.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/e47bf75804e8504547ea03161ee4b588.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/babel-webpack/e8462e635e1a3eed3db6bb429b2ced2f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/SearchBox/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/SearchBox/searchbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/SearchBox/searchbox.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/CategoriesOverview/CategoriesOverview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/CategoriesOverview/CategoriesOverview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page/CategoriesOverview/CategoriesOverview.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/8a461f508e980150888761c68faf8ca8fb803c63/index.pack.old" afterDir="false" />
+    <list default="true" id="1af98b60-72fa-4ba3-99e7-0cbd7e30b855" name="Changes" comment="23/08">
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/10.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/11.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/12.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/13.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/14.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/4.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/6.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/7.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/8.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/9.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/111.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/115.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/116.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/118.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/120.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/121.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/122.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/123.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/124.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/125.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/126.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/127.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/128.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/129.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/131.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/HomePage/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/HomePage/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page/User/Login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/User/Login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/testApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/testApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/sharedData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/sharedData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/luggage.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +145,8 @@
       <workItem from="1660651756658" duration="5306000" />
       <workItem from="1661056886160" duration="19979000" />
       <workItem from="1661235192424" duration="15529000" />
+      <workItem from="1661395387392" duration="19264000" />
+      <workItem from="1661424535503" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1659447920144</created>
@@ -236,6 +240,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test call api" />
     <MESSAGE value="16/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/08" />
+    <MESSAGE value="23/08" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/08" />
   </component>
 </project>
