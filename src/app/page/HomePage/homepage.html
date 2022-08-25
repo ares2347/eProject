@@ -24,7 +24,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        <div class="btn">
+        <div class="btn" routerLink="/categories">
             <button>SHOP NOW</button>
         </div>
     </div>
@@ -37,7 +37,7 @@
                 <div class="banner-hover">
                     <div class="banner-title">
                         <h1>LUGGAGE</h1>
-                        <button class="banner-btn" routerLink="/categories">SHOP NOW</button>
+                        <button class="banner-btn" [routerLink]="['/categories','luggage']">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="banner-hover">
                     <div class="banner-title">
                         <h1>BACKPACK</h1>
-                        <button class="banner-btn" routerLink="/categories">SHOP NOW</button>
+                        <button class="banner-btn" [routerLink]="['/categories','backpack']">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                 <div class="banner-hover">
                     <div class="banner-title">
                         <h1>BAG</h1>
-                        <button class="banner-btn" routerLink="/categories">SHOP NOW</button>
+                        <button class="banner-btn" [routerLink]="['/categories','bags']">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="banner-hover">
                     <div class="banner-title">
                         <h1>ACCESSORIES</h1>
-                        <button class="banner-btn" routerLink="/categories">SHOP NOW</button>
+                        <button class="banner-btn" [routerLink]="['/categories','accessories']">SHOP NOW</button>
                     </div>
                 </div>
             </div>

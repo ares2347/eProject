@@ -1,15 +1,15 @@
 <div class="container d-flex" style="width: 1600px; margin: 0 auto 100px">
     <div class = "col-md-2" style="padding-top: 100px;  ">
-        <div class='category-select' (click)="changeCategories($event)">LUGGAGE</div>
+        <div class='category-select' (click)="changeCategories($event); onFilterChange($event)">LUGGAGE</div>
         <hr/>
-        <div class='category-select' (click)="changeCategories($event)">BACKPACK</div>
+        <div class='category-select' (click)="changeCategories($event); onFilterChange($event)">BACK PACK</div>
         <hr/>
-        <div class='category-select' (click)="changeCategories($event)">BAGS</div>
+        <div class='category-select' (click)="changeCategories($event); onFilterChange($event)">BAGS</div>
         <hr/>
-        <div class='category-select' (click)="changeCategories($event)">ACCESSORIES</div>
+        <div class='category-select' (click)="changeCategories($event); onFilterChange($event)">ACCESSORIES</div>
     </div>
     <div class = 'col-md-10'>
-        <div style="font-weight: 700; font-size: 30px; padding: 30px 0">{{selected}}</div>
+        <div style="font-weight: 700; font-size: 30px; padding: 30px 0">{{filter.category}}</div>
         <div id="cate-nav-bar">
             <span>Sort by filter</span>
             <ul id="dropdown-list">
@@ -51,8 +51,8 @@
         </div>
         <div *ngIf="productList.length>0" id="product-container">
             <div *ngFor="let product of productList">
-                <div class="product-wrapper">
-                    <img src="assets/luggage.jpg" class="product-img">
+                <div class="product-wrapper" [routerLink]="['/product', product.pid]" style="cursor: pointer">
+                    <img [src]="'assets/' + product.pid + '.webp'" class="product-img">
                     <span class="product-brand">{{product.brand}}</span>
                     <span class="product-name">{{product.name}}</span>
                     <span class="product-price">{{product.price.toLocaleString()}} VND</span>

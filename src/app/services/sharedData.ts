@@ -1,21 +1,18 @@
-import {Observable, Observer} from "rxjs";
+import {Observable, Observer, Subject} from "rxjs";
+import {Injectable} from "@angular/core";
 
 export const cart = [
     {pid: 123,price:200000, name: 'Luggage',quantity: 2},
-    {pid: 456,price:300000, name: 'Backpack', quantity: 3},
+    {pid: 124,price:300000, name: 'Backpack', quantity: 3},
 ]
 
-// export class SharedData {
-//     cartUpdate:Observable<any>;
-//     cartObserver:Observer<any>;
-//     constructor() {
-//         this.cartUpdate = Observable.create((observer:Observer<any>) =>{
-//             this.cartObserver = observer
-//         })
-//     }
-//     updateCart(newCart: any) {
-//         cart.splice(0, cart.length,...newCart)
-//         this.cartObserver.next(cart)
-//     }
-//
-// }
+@Injectable()
+export class SharedDataService {
+    execChange: Subject<any> = new Subject<any>();
+
+    constructor() {}
+
+    cartItemChange(data: any){
+        this.execChange.next(data)
+    }
+}

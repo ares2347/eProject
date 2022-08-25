@@ -4,8 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="1af98b60-72fa-4ba3-99e7-0cbd7e30b855" name="Changes" comment="23/08">
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/10.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/11.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/12.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/13.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/14.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/4.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/6.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/7.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/8.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/9.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/111.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/115.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/116.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/118.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/120.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/121.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/122.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/123.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/124.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/125.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/126.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/127.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/128.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/129.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/131.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.1.0/angular-webpack/fdb826acfd7f0c12e72320a592b3bfa1a677c093/index.pack.old" afterDir="false" />
     <list default="true" id="d881900b-a580-4226-9da1-ffe0eeb82087" name="Changes" comment="23/8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header/header.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header/header.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Cart/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Cart/cart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Categories/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Categories/categories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/HomePage/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page/Product/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page/Product/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/sharedData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/sharedData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/luggage.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +150,8 @@
       <workItem from="1660651756658" duration="5306000" />
       <workItem from="1661056886160" duration="19979000" />
       <workItem from="1661235192424" duration="15529000" />
+      <workItem from="1661395387392" duration="19264000" />
+      <workItem from="1661424535503" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1659447920144</created>
@@ -202,6 +252,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test call api" />
     <MESSAGE value="16/08" />
+    <MESSAGE value="23/08" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/08" />
     <MESSAGE value="23/8" />
     <option name="LAST_COMMIT_MESSAGE" value="23/8" />
   </component>

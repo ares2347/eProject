@@ -2,38 +2,10 @@
     <div class="main-menu">
         <div class="mobile-menu"></div>
         <ul class="menu">
-            <li><a href="">LUGGAGE</a>
-                <ul class="sub-menu">
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                </ul>
-            </li>
-            <li><a href="">BACKPACK</a>
-                <ul class="sub-menu">
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                </ul>
-            </li>
-            <li><a href="">BAGS</a>
-                <ul class="sub-menu">
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                </ul>
-            </li>
-            <li><a href="">ACCESSORIES</a>
-                <ul class="sub-menu">
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                    <li class="item-list-submenu"></li>
-                </ul>
-            </li>
+            <li><a [routerLink]="['/categories','luggage']">LUGGAGE</a></li>
+            <li><a [routerLink]="['/categories','backpack']">BACKPACK</a></li>
+            <li><a [routerLink]="['/categories','bags']">BAGS</a></li>
+            <li><a [routerLink]="['/categories','accessories']">ACCESSORIES</a></li>
             <li><a href="">VỀ CHÚNG TÔI</a>
 
             </li>
@@ -41,7 +13,7 @@
         <div class="sub-mobile-menu"></div>
     </div>
     <div class="header-logo">
-        <a routerLink="/"><img src="../../../assets/logo.png" alt="logo" style="width: 100px"/></a>
+        <a routerLink="/"><span style="font-weight: 700; font-size: 36px">JUST IN CASE</span></a>
     </div>
     <div class="header-right">
         <component-searchbox></component-searchbox>

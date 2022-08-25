@@ -21,6 +21,10 @@ ul li{
 img{
     max-width: 100%;
 }
+#post-content h3{
+    font-size: 12px;
+    margin-top: 5px ;
+}
 .row{
     display: flex;
 }
