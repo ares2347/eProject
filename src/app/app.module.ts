@@ -18,6 +18,7 @@ import {Categories} from "./page/Categories/categories";
 import {CategoriesOverview} from "./page/CategoriesOverview/CategoriesOverview";
 import {ReactiveFormsModule, FormsModule} from "@angular/forms";
 import {SharedDataService} from "./services/sharedData";
+import {Contact} from "./page/Contact/contact";
 const appRoutes: Routes = [
   {
     path: '', component: Homepage
@@ -35,6 +36,8 @@ const appRoutes: Routes = [
     path:'categories/:category', component: Categories
   },{
     path:'categories/overview', component: CategoriesOverview
+  },{
+    path:'contact', component: Contact
   }
 ]
 
@@ -51,7 +54,8 @@ const appRoutes: Routes = [
     Register,
     SearchboxComponent,
     Categories,
-      CategoriesOverview
+    CategoriesOverview,
+    Contact
   ],
   imports: [
     BrowserModule,
