@@ -119,6 +119,9 @@ img{
     cursor: pointer;
     padding: 14px 15px;
 }
+.inputBox input[type="submit"]:hover{
+    background-color: #495057;
+}
 .info{
     background-color: #FFFFFF;
 }
