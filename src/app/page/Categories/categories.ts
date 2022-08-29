@@ -77,13 +77,5 @@ export class Categories {
         this.filter.category = (event.target as HTMLElement).innerText;
         (event.target as HTMLElement).parentElement?.querySelector(".selected")?.classList.remove('selected');
         (event.target as HTMLElement).classList.add('selected');
-        // this._router.navigate([],{
-        //     relativeTo: this._route,
-        //     queryParams: {
-        //         category: this.filter.category
-        //     },
-        //     queryParamsHandling: 'merge',
-        //     skipLocationChange: true
-        // })
     }
 }

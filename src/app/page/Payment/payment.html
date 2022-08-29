@@ -1,0 +1,62 @@
+<div id="payment-container" class="container">
+    <span style="font-size: 28px; letter-spacing: 1px; font-weight: 600">PAYMENT</span>
+    <span style="font-size: 18px">CHOOSE PAYMENT METHOD BELOW</span>
+    <div id="payment-method">
+        <div (click)="changeMethod($event)">
+            PAY WITH CREDIT CARD
+            <img src="assets/credit.png" alt="">
+        </div>
+        <div (click)="changeMethod($event)">
+            PAY WITH PAYPAL
+            <img src="assets/paypal.jpg" alt="">
+        </div>
+        <div (click)="changeMethod($event)">
+            PAY WITH VISA
+            <img src="assets/visa.png" alt="">
+        </div>
+    </div>
+    <div id="payment-form">
+        <div id="billing-info">
+            <label> FULL NAME</label>
+            <input type="text" value="" name="fullname"/>
+            <label> BILLING ADDRESS</label>
+            <input type="text" value="" name="address"/>
+            <div style="display: flex; justify-content: space-between; gap: 20px">
+                <div style="display: flex; flex-direction: column;">
+                    <label>CITY</label>
+                    <input type="text" name="city"/>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label>ZIP CODE</label>
+                    <input type="text" name="zip"/>
+                </div>
+            </div>
+            <label>COUNTRY</label>
+            <input type="text" name="country" />
+            <button class="light-btn" routerLink="/">RETURN TO STORE</button>
+        </div>
+        <div id="card-info">
+            <label> CARDHOLDER NAME</label>
+            <input type="text" value="" name="card-name"/>
+            <label> CARD NUMBER</label>
+            <input type="text" value="" name="card-number"/>
+            <div style="display: flex; justify-content: space-between">
+                <div style="display: flex; flex-direction: column; flex-basis: 48%">
+                    <label>EXP MONTH</label>
+                    <select name="exp-month">
+                        <option *ngFor="let i of month">{{i}}</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction: column; flex-basis: 48%">
+                    <label>EXP YEAR</label>
+                    <select name="exp-year">
+                        <option *ngFor="let i of year">{{i}}</option>
+                    </select>
+                </div>
+            </div>
+            <label>CVV NUMBER</label>
+            <input type="text" name="cvv" />
+            <button class="dark-btn">PROCEED</button>
+        </div>
+    </div>
+</div>
