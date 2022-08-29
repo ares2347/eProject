@@ -146,6 +146,7 @@ img{
     color: #FFFFFF;
     padding: 10px 20px;
     border: 1px solid ;
+    box-shadow: 5px 5px 0 0 white, 4px 6px 7px 0 black;
 }
 .member-description button:hover{
     background-color: #495057;
