@@ -14,6 +14,8 @@ import {SearchboxComponent} from "./components/SearchBox/searchbox";
 import {Categories} from "./page/Categories/categories";
 import {ReactiveFormsModule, FormsModule} from "@angular/forms";
 import {SharedDataService} from "./services/sharedData";
+import {Contact} from "./page/Contact/contact";
+import {Aboutus} from "./page/AboutUs/aboutus";
 import {Payment} from "./page/Payment/payment"
 const appRoutes: Routes = [
   {
@@ -28,6 +30,10 @@ const appRoutes: Routes = [
     path:'categories/:category', component: Categories
   },{
     path:'payment', component: Payment
+  },{
+    path:'contact', component: Contact
+  },{
+    path:'aboutus', component: Aboutus
   }
 ]
 
@@ -43,6 +49,8 @@ const appRoutes: Routes = [
     Payment,
     SearchboxComponent,
     Categories,
+    Contact,
+    Aboutus
   ],
   imports: [
     BrowserModule,
