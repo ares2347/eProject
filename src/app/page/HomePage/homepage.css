@@ -139,7 +139,7 @@ h1{
     background-color: #3333336e;
     padding: 2px;
     position: absolute;
-    top:280px;
+    bottom:280px;
 }
 .home-spotlight-block {
     margin-bottom: 50px;

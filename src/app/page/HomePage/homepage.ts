@@ -25,10 +25,10 @@ export class Homepage {
 
     ngOnInit(){
         this.getFeatured({category: "LUGGAGE"} as unknown as HttpParams)
-        this.getFeatured({category: "BACK PACK"} as unknown as HttpParams)
-        this.getFeatured({category: "ACCESSORIES"} as unknown as HttpParams)
-        this.getFeatured({category: "BAGS"} as unknown as HttpParams)
-            .then(() => console.log(this.productList))
+            .then(() => this.getFeatured({category: "BACK PACK"} as unknown as HttpParams)
+                .then(() => this.getFeatured({category: "ACCESSORIES"} as unknown as HttpParams)
+                    .then(() => this.getFeatured({category: "BAGS"} as unknown as HttpParams)
+                        .then(() => console.log(this.productList)))))
     }
 
     bestSeller: object[] = [
