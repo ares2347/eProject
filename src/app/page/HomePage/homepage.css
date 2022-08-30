@@ -276,3 +276,6 @@ a.spotlight-button:hover{
     background-color: white;
     color: black;
 }
+.product-img img{
+    height: 300px;
+}

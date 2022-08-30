@@ -42,7 +42,10 @@ export class SearchboxComponent {
             .then(() => console.log(this.productList))
     }
 
-    offFocus = () => {
-        this.productList = []
+    offFocus = (event: Event) => {
+        if(!(event.target as HTMLInputElement).value) this.productList = [];
+    }
+    clearSearch = () => {
+        this.productList=[]
     }
 }

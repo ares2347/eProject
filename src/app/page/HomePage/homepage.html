@@ -112,40 +112,16 @@
                         </div>
                     </div>
                     <div class="col-sm-9 d-flex">
-                        <div class="">
-                            <div class="product">
+                        <div class="" *ngFor="let item of productList">
+                            <div class="product" *ngIf="item.category=='LUGGAGE'" [routerLink]="['/product', item.pid]">
                                 <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
+                                    <img [src]="'assets/' + item.pid + '.webp'" alt="">
                                 </div>
                                 <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
+                                    <p>{{item.name}}</p>
+                                    <p>{{item.brand}}</p>
                                 </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
+                                <p class="price">{{item.price.toLocaleString()}}₫</p>
                             </div>
                         </div>
                     </div>
@@ -186,40 +162,16 @@
                         </div>
                     </div>
                     <div class="col-sm-9 d-flex">
-                        <div class="">
-                            <div class="product">
+                        <div class="" *ngFor="let item of productList">
+                            <div class="product" *ngIf="item.category=='BACK PACK'" [routerLink]="['/product', item.pid]">
                                 <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
+                                    <img [src]="'assets/' + item.pid + '.webp'" alt="">
                                 </div>
                                 <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
+                                    <p>{{item.name}}</p>
+                                    <p>{{item.brand}}</p>
                                 </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
+                                <p class="price">{{item.price.toLocaleString()}}₫</p>
                             </div>
                         </div>
                     </div>
@@ -279,40 +231,16 @@
                         </div>
                     </div>
                     <div class="col-sm-9 d-flex">
-                        <div class="">
-                            <div class="product">
+                        <div class="" *ngFor="let item of productList">
+                            <div class="product" *ngIf="item.category=='BAGS'" [routerLink]="['/product', item.pid]">
                                 <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
+                                    <img [src]="'assets/' + item.pid + '.webp'" alt="">
                                 </div>
                                 <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
+                                    <p>{{item.name}}</p>
+                                    <p>{{item.brand}}</p>
                                 </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
+                                <p class="price">{{item.price.toLocaleString()}}₫</p>
                             </div>
                         </div>
                     </div>
@@ -353,40 +281,16 @@
                         </div>
                     </div>
                     <div class="col-sm-9 d-flex">
-                        <div class="">
-                            <div class="product">
+                        <div class="" *ngFor="let item of productList">
+                            <div class="product" *ngIf="item.category=='ACCESSORIES'" [routerLink]="['/product', item.pid]">
                                 <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
+                                    <img [src]="'assets/' + item.pid + '.webp'" alt="">
                                 </div>
                                 <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
+                                    <p>{{item.name}}</p>
+                                    <p>{{item.brand}}</p>
                                 </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="product">
-                                <div class="product-img">
-                                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3c011dc5060f43dc88cfae4a01077361_9366/Ba_Lo_Badge_of_Sport_Classic_trai_cam_HM9143_01_standard.jpg" alt="">
-                                </div>
-                                <div class="product-content">
-                                    <p>BA LÔ BADGE OF SPORT CLASSIC</p>
-                                    <p>Phong Cách Sống</p>
-                                </div>
-                                <p class="price">650.000₫</p>
+                                <p class="price">{{item.price.toLocaleString()}}₫</p>
                             </div>
                         </div>
                     </div>

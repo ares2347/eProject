@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {HttpParams} from "@angular/common/http";
 import {TestApi} from "../../services/testApi";
 
@@ -12,7 +12,8 @@ import {TestApi} from "../../services/testApi";
 export class Product {
     constructor(
         private service: TestApi,
-        private _route: ActivatedRoute
+        private _route: ActivatedRoute,
+        private _router: Router
     ){}
 
     //@ts-ignore
@@ -35,7 +36,23 @@ export class Product {
         category: string;
     }
 
+    //@ts-ignore
+    reviews: {
+        content: string;
+        name: string;
+        title: string;
+    }[]
+
+    //@ts-ignore
+    productList: Array<{
+        pid: string;
+        name: string;
+        gender: string;
+        price: number;
+        brand: string;
+    }>;
     ngOnInit(){
+        this._router.routeReuseStrategy.shouldReuseRoute = () => false;
         this.pid = this._route.snapshot.paramMap.get('pid') as string
         this.getData({pid: this.pid} as unknown as HttpParams)
             .then(() => {
@@ -43,7 +60,10 @@ export class Product {
                 const content = document.getElementById('post-content')
                 if (description) {description.innerHTML = this.post.description}
                 if (content) {content.innerHTML = this.post.content}
+                this.getRecommended({brand: this.product.brand} as unknown as HttpParams)
             })
+        this.getReview({pid: this.pid} as unknown as HttpParams)
+
         const $ = document.querySelector.bind(document);
         const $$ = document.querySelectorAll.bind(document);
         const tabs = $$('.product-content-right-bottom-header-item');
@@ -91,4 +111,31 @@ export class Product {
         })
         return promise;
     }
+    getReview(params?:HttpParams){
+        const promise =new Promise((resolve: any, reject) => {
+            this.service.fetchData("http://localhost:8002/products/reviews", params)
+                .subscribe(res => {
+                    this.reviews = [...res]
+                    resolve();
+                })
+        })
+        return promise;
+    }
+    getRecommended(params?:HttpParams){
+        const promise =new Promise((resolve: any, reject) => {
+            this.service.fetchData("http://localhost:8002/products/recommended", params)
+                .subscribe(res => {
+                    this.productList = [...res]
+                    console.log(this.productList)
+                    resolve();
+                })
+        })
+        return promise;
+    }
+
+    changeWish = (event:Event) => {
+        document.querySelector(".selected")?.classList.remove('selected');
+        (event.target as HTMLElement).tagName == 'I'? (event.target as HTMLElement).parentElement?.classList.add('selected'): (event.target as HTMLElement).classList.add('selected');
+    }
+
 }

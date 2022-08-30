@@ -1,4 +1,6 @@
 import {Component} from "@angular/core";
+import {HttpParams} from "@angular/common/http";
+import {TestApi} from "../../services/testApi";
 
 @Component({
     selector: "homepage",
@@ -7,6 +9,28 @@ import {Component} from "@angular/core";
 })
 
 export class Homepage {
+    constructor(
+        private service: TestApi,
+    ){}
+    //@ts-ignore
+    productList: Array<{
+        pid: string;
+        name: string;
+        gender: string;
+        price: number;
+        brand: string;
+        category: string;
+    }> = [];
+
+
+    ngOnInit(){
+        this.getFeatured({category: "LUGGAGE"} as unknown as HttpParams)
+        this.getFeatured({category: "BACK PACK"} as unknown as HttpParams)
+        this.getFeatured({category: "ACCESSORIES"} as unknown as HttpParams)
+        this.getFeatured({category: "BAGS"} as unknown as HttpParams)
+            .then(() => console.log(this.productList))
+    }
+
     bestSeller: object[] = [
         {
             img: 'src/assets/carousel.webp',
@@ -30,4 +54,15 @@ export class Homepage {
             price: 20
         }
     ]
+    getFeatured(params?:HttpParams){
+        const promise =new Promise((resolve: any, reject) => {
+            this.service.fetchData("http://localhost:8002/products/featured", params)
+                .subscribe(res => {
+                    this.productList = [...this.productList, ...res]
+                    console.log(res)
+                    resolve();
+                })
+        })
+        return promise;
+    }
 }
