@@ -101,7 +101,7 @@ export class Product {
 
     getData(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/products/get", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/products/get", params)
                 .subscribe(res => {
                     console.log(res)
                     this.post=res[0][0]
@@ -113,7 +113,7 @@ export class Product {
     }
     getReview(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/products/reviews", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/products/reviews", params)
                 .subscribe(res => {
                     this.reviews = [...res]
                     resolve();
@@ -123,7 +123,7 @@ export class Product {
     }
     getRecommended(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/products/recommended", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/products/recommended", params)
                 .subscribe(res => {
                     this.productList = [...res]
                     console.log(this.productList)

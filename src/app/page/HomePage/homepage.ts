@@ -56,7 +56,7 @@ export class Homepage {
     ]
     getFeatured(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/products/featured", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/products/featured", params)
                 .subscribe(res => {
                     this.productList = [...this.productList, ...res]
                     console.log(res)

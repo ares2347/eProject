@@ -27,7 +27,7 @@ export class SearchboxComponent {
 
     getData(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/categories/get", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/categories/get", params)
                 .subscribe(res => {
                     this.productList = res
                     resolve();

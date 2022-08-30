@@ -34,7 +34,7 @@ export class Categories {
 
     getData(params?:HttpParams){
         const promise =new Promise((resolve: any, reject) => {
-            this.service.fetchData("http://localhost:8002/product/get", params)
+            this.service.fetchData("https://eprojectt2203egroup2.herokuapp.com/product/get", params)
                 .subscribe(res => {
                     this.productList = res
                     resolve();
